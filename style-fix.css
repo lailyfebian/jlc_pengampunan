@@ -391,7 +391,7 @@ body {
     }
 
     .hero-description {
-        font-size: 14px;
+        font-size: 14px !important;
         line-height: 1.7;
         margin-bottom: 20px;
     }
@@ -640,6 +640,13 @@ body {
 
     .section-subtitle {
         font-size: 22px;
+    }
+
+    .section-description {
+        font-size: 14px;
+    }
+    .about-list li {
+        font-size: 14px;
     }
 
 }
@@ -1610,6 +1617,10 @@ body {
         line-height: 1.7;
     }
 
+    .product-section p{
+        font-size: 14px;
+    }
+
 }
 
 
@@ -2132,7 +2143,15 @@ body {
 
     .faq-accordion .accordion-button {
         padding: 18px;
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .faq-content>p {
+        font-size: 14px;
+    }
+
+    ..faq-accordion .accordion-body {
+        font-size: 14px !important;
     }
 }
 
@@ -2990,7 +3009,7 @@ body {
     }
 
     .jlc-services-heading p {
-        font-size: 15px !important;
+        font-size: 14px !important;
         line-height: 1.8;
     }
 
@@ -3043,7 +3062,7 @@ body {
     }
 
     .jlc-services-body > p {
-        font-size: 12px !important;
+        font-size: 14px !important;
         line-height: 1.8;
     }
 
@@ -3052,7 +3071,7 @@ body {
     }
 
     .jlc-services-body ul li {
-        font-size: 12px !important;
+        font-size: 14px !important;
         line-height: 1.7;
     }
 
@@ -3088,7 +3107,7 @@ body {
     }
 
     .jlc-services-bottom-content p {
-        font-size: 12px !important;
+        font-size: 14px !important;
     }
 
     .jlc-services-bottom-action {
@@ -4015,7 +4034,7 @@ body {
     }
 
     .gallery-heading p {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
@@ -4260,7 +4279,7 @@ body {
     }
 
     .list-kota-header p {
-        font-size: 15px !important;
+        font-size: 14px !important;
         line-height: 1.8;
     }
 
@@ -4281,7 +4300,7 @@ body {
     .list-kota-grid a {
         gap: 7px;
         padding: 10px 9px;
-        font-size: 15px !important;
+        font-size: 14px !important;
         line-height: 1.5;
     }
 
@@ -4307,7 +4326,7 @@ body {
     }
 
     .list-kota-footer p {
-        font-size: 15px !important;
+        font-size: 14px !important;
         line-height: 1.7;
     }
 }
